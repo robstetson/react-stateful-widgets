@@ -53,7 +53,7 @@ const [inputValue, setInputValue] = useState('');
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: Array.from(inputValue).length >= 10 ? 'crimson' : 'royalblue'
+    color: Array.from(inputValue).length > 10 ? 'crimson' : 'royalblue'
      /* STEP 2 */
   };
 
